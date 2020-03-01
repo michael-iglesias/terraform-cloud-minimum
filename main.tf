@@ -31,8 +31,8 @@ data "terraform_remote_state" "dev" {
   config = {
     organization = "iglesias-michael"
     workspaces = {
-      # name = "minimum-dev"
-      prefix = "minimum-"
+      name = "terraform-cloud-minimum"
+    #   prefix = "minimum-"
     }
   }
 }
